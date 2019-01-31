@@ -1,5 +1,6 @@
 package no.hvl.dat110.messaging.tests;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.Arrays;
