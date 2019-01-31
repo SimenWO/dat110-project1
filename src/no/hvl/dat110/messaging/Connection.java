@@ -5,6 +5,8 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
 
+import static no.hvl.dat110.messaging.MessageConfig.SEGMENTSIZE;
+
 public class Connection {
 
 	private DataOutputStream outStream; // for writing bytes to the TCP connection
@@ -40,20 +42,20 @@ public class Connection {
 
 	public Message receive() {
 
-		Message message;
-		byte[] recvbuf = new byte[MessageConfig.SEGMENTSIZE];
+		Message message = new Message();
+		byte[] recvbuf = new byte[SEGMENTSIZE];
 
 		// read a segment from the input stream and decapsulate into message
-		message = new Message();
+
 
 		try {
-			inStream.read(recvbuf, 0, MessageConfig.SEGMENTSIZE);
+			inStream.read(recvbuf);
 			message.decapsulate(recvbuf);
-			return message;
+
 		} catch (IOException e) {
-			e.printStackTrace();
-			return null;
+			System.out.println("Error: " + e.getMessage());
 		}
+		return message;
 
 	}
 

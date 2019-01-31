@@ -35,7 +35,7 @@ public class Message {
 			for (int i = 0; i < this.payload.length; i++) {
 				encoded[i + 1] = this.payload[i];
 			}
-			
+
 			return encoded;
 		
 	}
