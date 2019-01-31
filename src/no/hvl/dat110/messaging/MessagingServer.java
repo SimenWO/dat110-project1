@@ -1,6 +1,9 @@
 package no.hvl.dat110.messaging;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
@@ -24,17 +27,22 @@ public class MessagingServer {
 	// accept an incoming connection from a client
 	public Connection accept() {
 
-		Connection connection = null;
+		Connection connection;
 
-		// TODO
 		// accept TCP connection on welcome socket and create connection
+		Socket socket;
 
-		if (true) {
-			throw new RuntimeException("not yet implemented");
+		try {
+			socket = welcomeSocket.accept();
+			connection = new Connection(socket);
+			socket.close();
+			return connection;
+
+		} catch (IOException e) {
+			System.out.println("Connection Error: " + e.getMessage());
+			e.printStackTrace();
+			return null;
 		}
-
-		return connection;
-
 	}
 
 	public void stop() {
