@@ -42,10 +42,14 @@ public class Message {
 
 	public void decapsulate(byte[] received) {
 
-		// TODO
-		// decapsulate data in received and put in payload
-		
-	   throw new RuntimeException("not yet implemented");
+		int length = received[0];
+		byte[] decoded = new byte[length];
+
+		for (int i = 0; i < length; i++) {
+			decoded[i] = received[i + 1];
+		}
+
+		this.payload = decoded;
 		
 	}
 }
