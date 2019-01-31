@@ -12,9 +12,11 @@ public class Message {
 	public Message(byte[] payload) {
 		if(payload.length<SEGMENTSIZE){
 			this.payload = payload;
+			return;
 		} else {
-			System.out.println("The messeage is to long");
+			System.out.println("The message is to long");
 		}
+
 
 	}
 
