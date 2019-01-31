@@ -25,19 +25,18 @@ public class Message {
 	public byte[] getData() {
 		return this.payload; 
 	}
+	
+		public byte[] encapsulate() {
 
-	public byte[] encapsulate() {
+			byte[] encoded = new byte[MessageConfig.SEGMENTSIZE];
 
-		byte[] encoded;
-		
-		// TODO
-		// encapulate/encode the payload of the message
-		
-		if (true) {
-		   throw new RuntimeException("not yet implemented");
-		}
-		
-		return encoded;
+			encoded[0] = (byte) this.payload.length;
+
+			for (int i = 0; i < this.payload.length; i++) {
+				encoded[i + 1] = this.payload[i];
+			}
+
+			return encoded;
 		
 	}
 
