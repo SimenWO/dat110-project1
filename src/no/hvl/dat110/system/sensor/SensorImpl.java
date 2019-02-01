@@ -15,17 +15,17 @@ public class SensorImpl implements RPCImpl {
 
 		return (int) Math.ceil(temp);
 	}
-	
+
 	public byte[] invoke(byte[] request) {
-				
-		RPCUtils.unmarshallVoid(request); 
-		
+
+		RPCUtils.unmarshallVoid(request);
+
 		int temp = read();
-		
+
 		byte rpcid = request[0];
-		
-		byte[] reply = RPCUtils.marshallInteger(rpcid,temp); 
-		
+
+		byte[] reply = RPCUtils.marshallInteger(rpcid,temp);
+
 		return reply;
 	}
 }
