@@ -29,7 +29,7 @@ public class MessagingServer {
 
 		Connection connection;
 
-		// accept TCP connection on welcome socket and create connection
+		// accept TCP connection on welcome socket and create connection  
 		Socket socket;
 
 		try {
