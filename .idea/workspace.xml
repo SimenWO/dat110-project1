@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76a44361-f82b-4ee5-899d-5fd99517abb4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/no/hvl/dat110/messaging/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat110/messaging/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/no/hvl/dat110/messaging/MessagingServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/no/hvl/dat110/messaging/MessagingServer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,22 +15,22 @@
     <session id="1074131442">
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="9" />
+          <entry key="java" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="84" />
+          <entry key="java" value="86" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="84" />
+          <entry key="JAVA" value="86" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -48,7 +47,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/messaging/Message.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
+            <state relative-caret-position="-189">
               <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -60,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/messaging/tests/TestMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="464">
               <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -69,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/messaging/tests/TestMessaging.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
+            <state relative-caret-position="135">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,8 +83,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/messaging/Connection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
+            <state relative-caret-position="-208">
               <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/messaging/MessagingServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -99,7 +107,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/no/hvl/dat110/messaging/tests/TestMessaging.java" />
-        <option value="$PROJECT_DIR$/src/no/hvl/dat110/messaging/MessagingServer.java" />
         <option value="$PROJECT_DIR$/src/no/hvl/dat110/messaging/Connection.java" />
         <option value="$PROJECT_DIR$/src/no/hvl/dat110/messaging/tests/TestMessage.java" />
         <option value="$PROJECT_DIR$/bin/.gitignore" />
@@ -107,6 +114,7 @@
         <option value="$PROJECT_DIR$/src/no/hvl/dat110/rpc/RPCClient.java" />
         <option value="$PROJECT_DIR$/src/no/hvl/dat110/rpc/RPCServer.java" />
         <option value="$PROJECT_DIR$/src/no/hvl/dat110/messaging/Message.java" />
+        <option value="$PROJECT_DIR$/src/no/hvl/dat110/messaging/MessagingServer.java" />
       </list>
     </option>
   </component>
@@ -162,14 +170,6 @@
               <item name="dat110-project1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="dat110" type="462c0819:PsiDirectoryNode" />
-              <item name="messaging" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dat110-project1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dat110-project1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dat110" type="462c0819:PsiDirectoryNode" />
               <item name="rpc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -200,7 +200,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549023178330" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549023967434" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -227,6 +227,52 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.TestMessaging">
+    <configuration name="TestMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dat110-project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.hvl.dat110.messaging.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="no.hvl.dat110.messaging.tests" />
+      <option name="MAIN_CLASS_NAME" value="no.hvl.dat110.messaging.tests.TestMessage" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMessage.EncapsulateDecapsulate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dat110-project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.hvl.dat110.messaging.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="no.hvl.dat110.messaging.tests" />
+      <option name="MAIN_CLASS_NAME" value="no.hvl.dat110.messaging.tests.TestMessage" />
+      <option name="METHOD_NAME" value="EncapsulateDecapsulate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMessage.testDecapsulate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dat110-project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.hvl.dat110.messaging.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="no.hvl.dat110.messaging.tests" />
+      <option name="MAIN_CLASS_NAME" value="no.hvl.dat110.messaging.tests.TestMessage" />
+      <option name="METHOD_NAME" value="testDecapsulate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestMessage.testEncapsulate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dat110-project1" />
       <extension name="coverage">
@@ -257,68 +303,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMessaging.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dat110-project1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="no.hvl.dat110.messaging.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="no.hvl.dat110.messaging.tests" />
-      <option name="MAIN_CLASS_NAME" value="no.hvl.dat110.messaging.tests.TestMessaging" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRPCUtils.testMarshallBoolean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dat110-project1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="no.hvl.dat110.rpc.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="no.hvl.dat110.rpc.tests" />
-      <option name="MAIN_CLASS_NAME" value="no.hvl.dat110.rpc.tests.TestRPCUtils" />
-      <option name="METHOD_NAME" value="testMarshallBoolean" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSystem.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dat110-project1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="no.hvl.dat110.system.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="no.hvl.dat110.system.tests" />
-      <option name="MAIN_CLASS_NAME" value="no.hvl.dat110.system.tests.TestSystem" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.TestMessaging.test" />
-      <item itemvalue="JUnit.TestRPCUtils.testMarshallBoolean" />
-      <item itemvalue="JUnit.TestSystem.test" />
       <item itemvalue="JUnit.TestMessage.testEncapsulate" />
       <item itemvalue="JUnit.TestMessaging" />
+      <item itemvalue="JUnit.TestMessage.testDecapsulate" />
+      <item itemvalue="JUnit.TestMessage.EncapsulateDecapsulate" />
+      <item itemvalue="JUnit.TestMessage" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestMessaging" />
-        <item itemvalue="JUnit.TestMessaging.test" />
+        <item itemvalue="JUnit.TestMessage" />
         <item itemvalue="JUnit.TestMessage.testEncapsulate" />
-        <item itemvalue="JUnit.TestSystem.test" />
-        <item itemvalue="JUnit.TestRPCUtils.testMarshallBoolean" />
+        <item itemvalue="JUnit.TestMessage.EncapsulateDecapsulate" />
+        <item itemvalue="JUnit.TestMessage.testDecapsulate" />
       </list>
     </recent_temporary>
   </component>
@@ -336,32 +334,11 @@
       <workItem from="1548921170078" duration="4456000" />
       <workItem from="1548930334969" duration="183000" />
       <workItem from="1548930569344" duration="343000" />
-      <workItem from="1549023130338" duration="75000" />
+      <workItem from="1549023130338" duration="349000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestMessaging_test - 2019.02.01 at 12h 11m 13s.xml">
-      <configuration name="TestMessaging.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMessaging_test - 2019.02.01 at 12h 13m 35s.xml">
-      <configuration name="TestMessaging.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMessaging_test - 2019.02.01 at 12h 14m 44s.xml">
-      <configuration name="TestMessaging.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMessage_testEncapsulate - 2019.02.01 at 13h 03m 17s.xml">
-      <configuration name="TestMessage.testEncapsulate" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMessaging_test - 2019.02.01 at 13h 03m 28s.xml">
-      <configuration name="TestMessaging.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMessaging_test - 2019.02.01 at 13h 07m 09s.xml">
-      <configuration name="TestMessaging.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestMessaging_test - 2019.02.01 at 13h 08m 56s.xml">
-      <configuration name="TestMessaging.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestMessaging - 2019.02.01 at 13h 08m 59s.xml">
       <configuration name="TestMessaging" configurationId="JUnit" />
     </history-entry>
@@ -371,15 +348,36 @@
     <history-entry file="TestMessaging - 2019.02.01 at 13h 12m 37s.xml">
       <configuration name="TestMessaging" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestMessaging - 2019.02.01 at 13h 23m 06s.xml">
+      <configuration name="TestMessaging" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMessage_testDecapsulate - 2019.02.01 at 13h 23m 42s.xml">
+      <configuration name="TestMessage.testDecapsulate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMessage_EncapsulateDecapsulate - 2019.02.01 at 13h 23m 49s.xml">
+      <configuration name="TestMessage.EncapsulateDecapsulate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMessage_testEncapsulate - 2019.02.01 at 13h 23m 56s.xml">
+      <configuration name="TestMessage.testEncapsulate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMessage - 2019.02.01 at 13h 24m 02s.xml">
+      <configuration name="TestMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMessage - 2019.02.01 at 13h 26m 02s.xml">
+      <configuration name="TestMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestMessaging - 2019.02.01 at 13h 26m 09s.xml">
+      <configuration name="TestMessaging" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15790000" />
+    <option name="totallyTimeSpent" value="16064000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26979" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26979" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -388,7 +386,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -445,25 +443,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/messaging/MessagingServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/messaging/Message 2.java" />
     <entry file="file://$PROJECT_DIR$/bin/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/messaging/MessagingClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -529,7 +513,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/messaging/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
+        <state relative-caret-position="-189">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -537,9 +521,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/messaging/MessagingClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/messaging/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-208">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/messaging/tests/TestMessage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="464">
           <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -547,20 +545,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/messaging/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/messaging/tests/TestMessaging.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/no/hvl/dat110/messaging/MessagingServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
         </state>
       </provider>
     </entry>

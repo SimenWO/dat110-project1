@@ -35,7 +35,6 @@ public class MessagingServer {
 		try {
 			socket = welcomeSocket.accept();
 			connection = new Connection(socket);
-			socket.close();
 			return connection;
 
 		} catch (IOException e) {
