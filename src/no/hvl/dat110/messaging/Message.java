@@ -10,9 +10,8 @@ public class Message {
 
 	// check for length within boundary
 	public Message(byte[] payload) {
-		if(payload.length<SEGMENTSIZE){
+		if(payload.length <= SEGMENTSIZE){
 			this.payload = payload;
-			return;
 		} else {
 			System.out.println("The message is to long");
 		}
@@ -30,13 +29,15 @@ public class Message {
 
 		public byte[] encapsulate() {
 
+			int length = payload.length;
+
 			byte[] encoded = new byte[MessageConfig.SEGMENTSIZE];
 
-			encoded[0] = (byte) this.payload.length;
-
-			for (int i = 0; i < this.payload.length; i++) {
-				encoded[i + 1] = this.payload[i];
+			for (int i = length; i>0; i--) {
+				encoded[i] = payload[i-1];
 			}
+
+			encoded[0] = (byte) length;
 
 			return encoded;
 		
