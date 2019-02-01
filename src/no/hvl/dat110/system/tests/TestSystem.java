@@ -36,8 +36,7 @@ class TestSystem {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		
-		// we check only termination here
+
 		assertTrue(true);
 			
 		System.out.println("System stopping ...");
