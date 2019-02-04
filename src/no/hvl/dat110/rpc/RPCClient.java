@@ -18,11 +18,12 @@ public class RPCClient {
 
 	public void connect() {
 		// connect using the underlying messaging layer connection
-
-		try {
-			connection = msgclient.connect();
-		} catch (Exception e) {
-			System.out.println("An error occurred: " + e);
+		if(connection == null) {
+			try {
+				connection = msgclient.connect();
+			} catch (Exception e) {
+				System.out.println("An error occurred: " + e);
+			}
 		}
 
 	}
